@@ -13,12 +13,12 @@ function setup() {
   var canv = createCanvas(windowWidth*0.8, windowHeight*0.5);
   canv.parent("canvas-container");
   canv.class("w3-black w3-card-4 ");
-  canv.elt.style.border = "1px solid orange";
+  canv.elt.style.border = "3px solid orange";
   canv.elt.style.borderRadius = "20px";  
 }
 
 function draw() {
     x = mouseX;
     y = mouseY;
-    rect(x, y, 20, 20);
+    ellipses(x, y, 20, 20);
 }
