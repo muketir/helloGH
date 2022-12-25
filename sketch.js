@@ -20,5 +20,5 @@ function setup() {
 function draw() {
     x = mouseX;
     y = mouseY;
-    ellipse(x, y, 20, 20);
+    ellipse(x, y, 80, 80);
 }
