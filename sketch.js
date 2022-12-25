@@ -18,8 +18,7 @@ function setup() {
 }
 
 function draw() {
-    stroke(0,255,0);
-    var x = mouseX;
-    var y = mouseY;
+    x = mouseX;
+    y = mouseY;
     rect(x, y, 20, 20);
 }
