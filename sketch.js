@@ -1,12 +1,5 @@
-var dots = [];
-var i = 0;
 var x = 0;
 var y = 0;
-var rad = 10;
-var expand = 0;
-var read = false;
-var cleanBoard = false;
-var write = false;
 
 function setup() {
   // noCanvas(window.innerWidth, window.innerHeight);
